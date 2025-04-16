@@ -1,0 +1,19 @@
+.formation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    min-height: 80dvh;
+}
+
+.formation-child > h3{
+    width: fit-content;
+    border-bottom: 2px solid #000000;
+}
+.formation-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 75dvw;
+}

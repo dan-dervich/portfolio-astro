@@ -1,0 +1,25 @@
+.main-landing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100dvh;
+    background-color: #f0f0f0;
+}
+.main-landing-header {
+    font-size: 3rem;
+}
+.main-landing-image {
+    border-radius: 50%;
+}
+.main-landing-desc {
+    max-width: 75dvw;
+    line-height: 1.5;
+}
+.main-cta {
+    color: black;
+    transition: .2s all ease;
+}
+.main-cta:hover {
+    color: #d3d3d3;
+}

@@ -1,0 +1,32 @@
+.contact {
+    background-color: #f9f9f9;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 30dvh;
+}
+
+.contact-header {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.contact-links-gallery {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 75vw;
+    min-height: 25dvh;
+    width: 100%;
+    text-align: center;
+}
+
+.contact-link {
+    color: black;
+    transition: .2s all ease;
+}
+.contact-link:hover {
+    color: #d5d5d5;
+}

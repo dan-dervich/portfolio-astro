@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<style>
+			@import url("https://fonts.googleapis.com/css2?family=Special+Gothic+Expanded+One&display=swap");
+		</style>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Dan Dervich's Web Programer Portfolio</title>
+		<meta
+			name="description"
+			content="this is Dan Dervich's web programer portfolio, I have been developing websites since the ripe age of 13 till now. Over 5 years of experience packed into one junior."
+		/>
+	</head>
+	<body>
+		<slot />
+	</body>
+	<style>
+		* {
+			font-family: "Special Gothic Expanded One", sans-serif;
+			font-weight: 400;
+			font-style: normal;
+			scroll-behavior: smooth;
+		}
+		html,
+		body {
+			margin: 0;
+			width: 100vw;
+			height: 100vh;
+			scroll-behavior: smooth;
+		}
+	</style>
+</html>

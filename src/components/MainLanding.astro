@@ -1,0 +1,29 @@
+---
+import { Image } from "astro:assets";
+import "../assets/css/MainLanding.css";
+import PortfolioImage from "../assets/images/Men Portfolio Photo.jpeg";
+---
+
+<main class="main-landing">
+    <h1 class="main-landing-header">Dan Dervich</h1>
+    <Image
+        src={PortfolioImage}
+        inferSize
+        decoding={"async"}
+        loading="eager"
+        format="webp"
+        class:list={["main-landing-image"]}
+        alt="Dan Dervich Foto Image, brown man with curly hair brown eyes"
+    />
+    <p class="main-landing-desc">
+        I thrive on solving problems and expanding my knowledge. When I
+        encounter a challenge, I don't stop until I understand it and can solve
+        it, often continuing to work beyond office hours simply because I love a
+        great puzzle no matter if it's work or not. Software development isn't
+        just my profession, it's something I'm genuinely grateful to be part of
+        every day. I'm inspired by the possibilities technology offers and feel
+        fortunate to live in a time where I can build and contribute through
+        code.
+    </p>
+    <a class="main-cta" href="#formation">See Formation</a>
+</main>
